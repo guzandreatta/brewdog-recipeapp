@@ -4,9 +4,9 @@
 		"name": "Theme example",
 		"description": "This is a Theme example",
 		"photos": [
-			"./assets/promotional_photos/promo_photo_1.jpg",
-			"./assets/promotional_photos/promo_photo_2.jpg",
-			"./assets/promotional_photos/promo_photo_3.jpg"
+			"",
+			"",
+			""
 		],
 		"maxPhotos": 50,
 		"minPhotos": 20,
@@ -57,7 +57,7 @@
 					"horizontalOffset": 20
 				}
 			},
-			"image": "./assets/sizes/size_1/promo_size_image.jpg",
+			"image": "",
 			"suggest": "true",
 			"sortIndex": 1,
 			"price": 4.5
@@ -110,7 +110,7 @@
 					"horizontalOffset": 20
 				}
 			},
-			"image": "./assets/sizes/size_2/promo_size_image.jpg",
+			"image": "",
 			"suggest": "false",
 			"sortIndex": 2,
 			"price": 5.5
@@ -166,7 +166,7 @@
 						"horizontalOffset": 20
 					}
 				},
-				"image": "./assets/predefined_books/size_1/promo_size_image.jpg",
+				"image": "",
 				"suggest": "true",
 				"sortIndex": 1,
 				"price": 4.5
@@ -224,44 +224,44 @@
 						{
 							"type": "IMAGE",
 							"state": "ENABLED",
-							"uri": "./assets/predefined_books/size_1/background_images/background_image_1.jpg",
+							"uri": "",
 						},
 						{
 							"type": "IMAGE",
 							"state": "ENABLED",
-							"uri": "./assets/predefined_books/size_1/background_images/background_image_2.jpg",
+							"uri": "",
 						},
 						{
 							"type": "IMAGE",
 							"state": "ENABLED",
-							"uri": "./assets/predefined_books/size_1/background_images/background_image_3.jpg",
+							"uri": "",
 						}
 					],
 					"fonts": [
 						{
-							"fontName": "./assets/fonts/font_1.ttf"
+							"fontName": ""
 						},
 						{
-							"fontName": "./assets/fonts/font_2.ttf"
+							"fontName": ""
 						},
 						{
-							"fontName": "./assets/fonts/font_3.ttf"
+							"fontName": ""
 						}
 					],
 					"stickers": [
 						{
 							"stickerId": 1,
-							"imageUri": "./assets/stickers/sticker_1.jpg",
+							"imageUri": "",
 							"state": "ENABLED"
 						},
 						{
 							"stickerId": 1,
-							"imageUri": "./assets/stickers/sticker_2.jpg",
+							"imageUri": "",
 							"state": "ENABLED"
 						},
 						{
 							"stickerId": 1,
-							"imageUri": "./assets/stickers/sticker_3.jpg",
+							"imageUri": "",
 							"state": "ENABLED"
 						}
 					],
@@ -276,7 +276,7 @@
 								"pixels": 15
 							},
 							"font": {
-								"fontName": "./assets/fonts/font_2.ttf"
+								"fontName": ""
 							},
 							"background": {
 								{
@@ -297,7 +297,7 @@
 								"pixels": 18
 							},
 							"font": {
-								"fontName": "./assets/fonts/font_1.ttf"
+								"fontName": ""
 							},
 							"background": {
 								{
@@ -371,7 +371,7 @@
 							"sticker": {
 								{
 									"stickerId": 1,
-									"imageUri": "./assets/stickers/sticker_1.jpg",
+									"imageUri": "",
 									"state": "ENABLED"
 								}
 							}
@@ -393,16 +393,14 @@
 							"zIndex": 3,
 							"cropMaskShape": {
 								{
-									.... FALTA DEFINIR "SHAPE" --> MaskShape y BorderShape ....
 								}
 							},
 							"borderShape": {
-								.... FALTA DEFINIR "BorderShape" ....
 							},
 							"photo": {
 								"photo": {
 									"id": 1,
-									"path": "./assets/predefined_books/default_photos/default_photo_1.jpg",
+									"path": "",
 									"width": 1300,
 									"height": 1000,
 									"orientation": 1
@@ -448,7 +446,7 @@
 										"pixels": 15
 									},
 									"font": {
-										"fontName": "./assets/fonts/font_1.ttf"
+										"fontName": ""
 									},
 									"background": {
 										{
@@ -469,21 +467,17 @@
 						{
 							"type": "IMAGE",
 							"state": "ENABLED",
-							"uri": "./assets/predefined_books/size_1/background_images/background_image_1.jpg",
+							"uri": "",
 						}
 					},
 					"styleProperties": {
-						.... Same format as "customStyleProperties" detailed above ....
 					}
 				},
 				"backCoverSheet": {
-					.... Same format as "mainBackgroundSheetSection" detailed above ....
 				},
 				"spineCoverSheet": {
-					.... Same format as "mainBackgroundSheetSection" detailed above ....
 				},
 				"frontCoverSheet": {
-					.... Same format as "mainBackgroundSheetSection" detailed above ....
 				} 
 			},
 			"pages": [
@@ -523,12 +517,10 @@
 					"rightSheet": { ... }
 				},
 				{ 
-					.... MORE PAGES ....
 				}
 			]
 		}, 
 		{
-			... ANOTHER PREDEFINED BOOK ...
 		}
 	],
 	"sectionTemplates": {
@@ -583,7 +575,6 @@
 				"styleProperties": {...}
 			},
 			{ 
-				.... MORE SECTION TEMPLATES LIKE [COVER_BACKGROUND_SECTION, PAGE_BACKGROUND_SECTION, SINGLE_PAGE, DOUBLE_PAGE] ....
 			}
 		]
 	},
@@ -627,7 +618,6 @@
 					"doublePageSection": {...}
 				},
 				{ 
-					.... MORE INTERNAL SECTION TEMPLATES ....
 				}
 			]
 		}
@@ -661,7 +651,6 @@
 					"frontCoverSheet": {...}
 				},
 				{ 
-					.... MORE COVER SECTION TEMPLATES ....
 				}
 			]
 		}
