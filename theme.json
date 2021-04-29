@@ -1,666 +1,1152 @@
 {
-    "state": "ENABLED",
-    "metadata": {
-		"name": "Theme example",
-		"description": "This is a Theme example",
-		"photos": [
-			"",
-			"",
-			""
-		],
-		"maxPhotos": 50,
-		"minPhotos": 20,
-		"maxPages": 30,
-		"minPages": 10
-	},
-	"themeSizes": [
-		{
-			"id": 1,
-			"state": "ENABLED",
-			"coverSizeSheet": {
-				"pageSize": {
-					"width": 300,
-					"height": 200,
-					"verticalOffset": 50,
-					"horizontalOffset": 50
-				},
-				"printSize": {
-					"width": 305,
-					"height": 205,
-					"verticalOffset": 55,
-					"horizontalOffset": 55
-				},
-				"fullPrintSize": {
-					"width": 320,
-					"height": 220,
-					"verticalOffset": 70,
-					"horizontalOffset": 70
-				}
-			},
-			"pageSizeSheet": {
-				"pageSize": {
-					"width": 290,
-					"height": 190,
-					"verticalOffset": 0,
-					"horizontalOffset": 0
-				},
-				"printSize": {
-					"width": 295,
-					"height": 195,
-					"verticalOffset": 5,
-					"horizontalOffset": 5
-				},
-				"fullPrintSize": {
-					"width": 310,
-					"height": 210,
-					"verticalOffset": 20,
-					"horizontalOffset": 20
-				}
-			},
-			"image": "",
-			"suggest": "true",
-			"sortIndex": 1,
-			"price": 4.5
-			"additionalSheetPrice": 0.5,
-			"name": "30x20",
-			"description": "Book size 1 description",
-			"weight": 55.08,
-			"additionalPageWeight": 0.02
-		},
-		{
-			"id": 2,
-			"state": "ENABLED",
-			"coversheetPrintableSize": {
-				"pageSize": {
-					"width": 400,
-					"height": 300,
-					"verticalOffset": 50,
-					"horizontalOffset": 50
-				},
-				"printSize": {
-					"width": 405,
-					"height": 305,
-					"verticalOffset": 55,
-					"horizontalOffset": 55
-				},
-				"fullPrintSize": {
-					"width": 420,
-					"height": 320,
-					"verticalOffset": 70,
-					"horizontalOffset": 70
-				}
-			},
-			"pagesheetPrintableSize": {
-				"pageSize": {
-					"width": 390,
-					"height": 290,
-					"verticalOffset": 0,
-					"horizontalOffset": 0
-				},
-				"printSize": {
-					"width": 395,
-					"height": 295,
-					"verticalOffset": 5,
-					"horizontalOffset": 5
-				},
-				"fullPrintSize": {
-					"width": 410,
-					"height": 310,
-					"verticalOffset": 20,
-					"horizontalOffset": 20
-				}
-			},
-			"image": "",
-			"suggest": "false",
-			"sortIndex": 2,
-			"price": 5.5
-			"additionalSheetPrice": 0.5,
-			"name": "40x30",
-			"description": "Book size 2 description",
-			"weight": 60.08,
-			"additionalPageWeight": 0.02
-		}
-	],
-	"predefinedBooks": [
-		{
-			"size": {
-				"id": 1,
-				"state": "ENABLED",
-				"coversheetPrintableSize": {
-					"pageSize": {
-						"width": 300,
-						"height": 200,
-						"verticalOffset": 50,
-						"horizontalOffset": 50
-					},
-					"printSize": {
-						"width": 305,
-						"height": 205,
-						"verticalOffset": 55,
-						"horizontalOffset": 55
-					},
-					"fullPrintSize": {
-						"width": 320,
-						"height": 220,
-						"verticalOffset": 70,
-						"horizontalOffset": 70
-					}
-				},
-				"pagesheetPrintableSize": {
-					"pageSize": {
-						"width": 290,
-						"height": 190,
-						"verticalOffset": 0,
-						"horizontalOffset": 0
-					},
-					"printSize": {
-						"width": 295,
-						"height": 195,
-						"verticalOffset": 5,
-						"horizontalOffset": 5
-					},
-					"fullPrintSize": {
-						"width": 310,
-						"height": 210,
-						"verticalOffset": 20,
-						"horizontalOffset": 20
-					}
-				},
-				"image": "",
-				"suggest": "true",
-				"sortIndex": 1,
-				"price": 4.5
-				"additionalSheetPrice": 0.5,
-				"name": "30x20",
-				"description": "Book size 1 description",
-				"weight": 55.08,
-				"additionalPageWeight": 0.02
-			},
-			"cover": {
-				"pageId": 1,
-				"type": "COVER",
-				"pageNumber": 0,
-				"sheetPrintableSize": {
-					"pageSize": {
-						"width": 320,
-						"height": 220,
-						"verticalOffset": 50,
-						"horizontalOffset": 50
-					},
-					"printSize": {
-						"width": 315,
-						"height": 215,
-						"verticalOffset": 55,
-						"horizontalOffset": 55
-					},
-					"fullPrintSize": {
-						"width": 340,
-						"height": 240,
-						"verticalOffset": 70,
-						"horizontalOffset": 70
-					}
-				},
-				"areInternalSectionsSwappable": "true",
-				"customStyleProperties": {
-					"backgrounds": [
-						{
-							"type": "SOLID_COLOR",
-							"color": {
-								"intColor": 16777215
-							}
-						},
-						{
-							"type": "SOLID_COLOR",
-							"color": {
-								"intColor": 35223454
-							}
-						},
-						{
-							"type": "SOLID_COLOR",
-							"color": {
-								"intColor": 83484534
-							}
-						},
-						{
-							"type": "IMAGE",
-							"state": "ENABLED",
-							"uri": "",
-						},
-						{
-							"type": "IMAGE",
-							"state": "ENABLED",
-							"uri": "",
-						},
-						{
-							"type": "IMAGE",
-							"state": "ENABLED",
-							"uri": "",
-						}
-					],
-					"fonts": [
-						{
-							"fontName": ""
-						},
-						{
-							"fontName": ""
-						},
-						{
-							"fontName": ""
-						}
-					],
-					"stickers": [
-						{
-							"stickerId": 1,
-							"imageUri": "",
-							"state": "ENABLED"
-						},
-						{
-							"stickerId": 1,
-							"imageUri": "",
-							"state": "ENABLED"
-						},
-						{
-							"stickerId": 1,
-							"imageUri": "",
-							"state": "ENABLED"
-						}
-					],
-					"texts": [
-						{
-							"fontStyle": "NORMAL",
-							"fontColor": {
-								"intColor": 83484534
-							},
-							"align": "CENTER",
-							"fontSize": {
-								"pixels": 15
-							},
-							"font": {
-								"fontName": ""
-							},
-							"background": {
-								{
-									"type": "SOLID_COLOR",
-									"color": {
-										"intColor": 16725215
-									}
-								}
-							}
-						},
-						{
-							"fontStyle": "BOLD",
-							"fontColor": {
-								"intColor": 83423534
-							},
-							"align": "LEFT",
-							"fontSize": {
-								"pixels": 18
-							},
-							"font": {
-								"fontName": ""
-							},
-							"background": {
-								{
-									"type": "SOLID_COLOR",
-									"color": {
-										"intColor": 16725215
-									}
-								}
-							}
-						}
-					],
-					"fontColors": [
-						{
-							"color": {
-								"intColor": 16745215
-							}
-						},
-						{
-							"color": {
-								"intColor": 16755215
-							}
-						},
-						{
-							"color": {
-								"intColor": 16726215
-							}
-						}
-					]
-				},
-				"mainBackgroundSheetSection": {
-					"id": 1,
-					"type": "COVER_BACKGROUND_SECTION",
-					"size": {
-						{
-							"pageSize": {
-								"width": 300,
-								"height": 200,
-								"verticalOffset": 50,
-								"horizontalOffset": 50
-							},
-							"printSize": {
-								"width": 305,
-								"height": 205,
-								"verticalOffset": 55,
-								"horizontalOffset": 55
-							},
-							"fullPrintSize": {
-								"width": 320,
-								"height": 220,
-								"verticalOffset": 70,
-								"horizontalOffset": 70
-							}
-						}
-					},
-					"elements": [
-						{
-							"elementId": 1,
-							"elementType": "STICKER",
-							"position": {
-								"x": 125,
-								"y": 48
-							},
-							"rotation": {
-								"rotationDegree": 0
-							},
-							"size": {
-								"width": 30,
-								"height": 30
-							},
-							"zIndex": 3,
-							"sticker": {
-								{
-									"stickerId": 1,
-									"imageUri": "",
-									"state": "ENABLED"
-								}
-							}
-						},
-						{
-							"elementId": 2,
-							"elementType": "PHOTO_BLOCK",
-							"position": {
-								"x": 50,
-								"y": 50
-							},
-							"rotation": {
-								"rotationDegree": 45
-							},
-							"size": {
-								"width": 120,
-								"height": 120
-							},
-							"zIndex": 3,
-							"cropMaskShape": {
-								{
-								}
-							},
-							"borderShape": {
-							},
-							"photo": {
-								"photo": {
-									"id": 1,
-									"path": "",
-									"width": 1300,
-									"height": 1000,
-									"orientation": 1
-								},
-								"size": {
-									"width": 400,
-									"height": 300
-								},
-								"position": {
-									"x": 200,
-									"y": 200
-								},
-								"rotation": {
-									"rotationDegree": 0
-								},
-								"filterName": "",
-								"isFlipHorizontally": "false"
-							}
-						},
-						{
-							"elementId": 3,
-							"elementType": "TEXT",
-							"position": {
-								"x": 300,
-								"y": 300
-							},
-							"rotation": {
-								"rotationDegree": 0
-							},
-							"size": {
-								"width": 100,
-								"height": 30
-							},
-							"zIndex": 3,
-							"textStyle": {
-								{									
-									"fontStyle": "NORMAL",
-									"fontColor": {
-										"intColor": 83484534
-									},
-									"align": "CENTER",
-									"fontSize": {
-										"pixels": 15
-									},
-									"font": {
-										"fontName": ""
-									},
-									"background": {
-										{
-											"type": "SOLID_COLOR",
-											"color": {
-												"intColor": 16725215
-											}
-										}
-									}
-								}
-							},
-							"themeText": {
-								"text": "TITLE HERE"
-							}
-						}
-					],
-					"background": {
-						{
-							"type": "IMAGE",
-							"state": "ENABLED",
-							"uri": "",
-						}
-					},
-					"styleProperties": {
-					}
-				},
-				"backCoverSheet": {
-				},
-				"spineCoverSheet": {
-				},
-				"frontCoverSheet": {
-				} 
-			},
-			"pages": [
-				{
-					"type": "DOUBLE_INTERNAL",
-					"pageId": 1,
-					"pageNumber": 1,
-					"sheetPrintableSize": { ... },
-					"areInternalSectionsSwappable": "true",
-					"customStyleProperties": { ... },
-					"mainBackgroundSheetSection": { ... },
-					"background": { ... },
-					"doublePageSection": { ... }
-				},
-				{
-					"type": "SINGLE_INTERNAL",
-					"pageId": 2,
-					"pageNumber": 3,
-					"sheetPrintableSize": { ... },
-					"areInternalSectionsSwappable": "true",
-					"customStyleProperties": { ... },
-					"mainBackgroundSheetSection": { ... },
-					"background": { ... },
-					"leftSheet": { ... },
-					"rightSheet": null
-				},
-				{
-					"type": "SINGLE_INTERNAL",
-					"pageId": 2,
-					"pageNumber": 4,
-					"sheetPrintableSize": { ... },
-					"areInternalSectionsSwappable": "true",
-					"customStyleProperties": { ... },
-					"mainBackgroundSheetSection": { ... },
-					"background": { ... },
-					"leftSheet": null,
-					"rightSheet": { ... }
-				},
-				{ 
-				}
-			]
-		}, 
-		{
-		}
-	],
-	"sectionTemplates": {
-		"themeSizeId": 1,
-		"templates": [
-			{
-				"type": "FRONT_COVER_PAGE",
-				"id": 1,
-				"size": { ... },
-				"elements": [{...}],
-				"background": {...},
-				"styleProperties": {...}
-			},
-			{
-				"type": "FRONT_COVER_PAGE",
-				"id": 2,
-				"size": { ... },
-				"elements": [{...}],
-				"background": {...},
-				"styleProperties": {...}
-			},
-			{
-				"type": "FRONT_COVER_PAGE",
-				"id": 3,
-				"size": { ... },
-				"elements": [{...}],
-				"background": {...},
-				"styleProperties": {...}
-			},
-			{
-				"type": "SPINE_COVER_PAGE",
-				"id": 4,
-				"size": { ... },
-				"elements": [{...}],
-				"background": {...},
-				"styleProperties": {...}
-			},
-			{
-				"type": "SPINE_COVER_PAGE",
-				"id": 5,
-				"size": { ... },
-				"elements": [{...}],
-				"background": {...},
-				"styleProperties": {...}
-			},
-			{
-				"type": "BACK_COVER_PAGE",
-				"id": 6,
-				"size": { ... },
-				"elements": [{...}],
-				"background": {...},
-				"styleProperties": {...}
-			},
-			{ 
-			}
-		]
-	},
-	"internalSheetTemplates": [
-		{
-			"themeSizeId": 1,
-			"templates": [
-				{
-					"type": "SINGLE_INTERNAL",
-					"pageId": 1,
-					"pageNumber": 0,
-					"sheetPrintableSize": {...},
-					"areInternalSectionsSwappable": "true",
-					"customStyleProperties": {...},
-					"mainBackgroundSheetSection": {...},
-					"background": {...},
-					"leftSheet": {...},
-					"rightSheet": {...}
-				},
-				{
-					"type": "SINGLE_INTERNAL",
-					"pageId": 2,
-					"pageNumber": 0,
-					"sheetPrintableSize": {...},
-					"areInternalSectionsSwappable": "true",
-					"customStyleProperties": {...},
-					"mainBackgroundSheetSection": {...},
-					"background": {...},
-					"leftSheet": {...},
-					"rightSheet": {...}
-				},
-				{
-					"type": "DOUBLE_INTERNAL",
-					"pageId": 3,
-					"pageNumber": 0,
-					"sheetPrintableSize": {...},
-					"areInternalSectionsSwappable": "true",
-					"customStyleProperties": {...},
-					"mainBackgroundSheetSection": {...},
-					"background": {...},
-					"doublePageSection": {...}
-				},
-				{ 
-				}
-			]
-		}
-	],
-	"coverSheetTemplates": [
-		{
-			"themeSizeId": 1,
-			"templates": [
-				{
-					"type": "COVER",
-					"pageId": 1,
-					"pageNumber": 0,
-					"sheetPrintableSize": {...},
-					"areInternalSectionsSwappable": "true",
-					"customStyleProperties": {...},
-					"mainBackgroundSheetSection": {...},
-					"backCoverSheet": {...},
-					"spineCoverSheet": {...},
-					"frontCoverSheet": {...}
-				},
-				{
-					"type": "COVER",
-					"pageId": 2,
-					"pageNumber": 0,
-					"sheetPrintableSize": {...},
-					"areInternalSectionsSwappable": "true",
-					"customStyleProperties": {...},
-					"mainBackgroundSheetSection": {...},
-					"backCoverSheet": {...},
-					"spineCoverSheet": {...},
-					"frontCoverSheet": {...}
-				},
-				{ 
-				}
-			]
-		}
-	],
-	"customStyleProperties": {...}
+  "state": "ENABLED",
+  "metadata": {
+    "name": "Theme example",
+    "description": "This is a Theme example",
+    "photos": ["", "", ""],
+    "maxPhotos": 50,
+    "minPhotos": 20,
+    "maxPages": 30,
+    "minPages": 10
+  },
+  "themeSizes": [
+    {
+      "id": "99",
+      "coverSizeSheet": {
+        "sheetSize": {
+          "pageSize": {
+            "width": 300,
+            "height": 200,
+            "verticalOffset": 50,
+            "horizontalOffset": 50
+          },
+          "printSize": {
+            "width": 305,
+            "height": 205,
+            "verticalOffset": 55,
+            "horizontalOffset": 55
+          },
+          "fullPrintSize": {
+            "width": 320,
+            "height": 220,
+            "verticalOffset": 70,
+            "horizontalOffset": 70
+          }
+        },
+        "mainBackgroundSheetSectionSize": {
+          "pageSize": {
+            "width": 305,
+            "height": 205,
+            "verticalOffset": 55,
+            "horizontalOffset": 55
+          },
+          "layoutSize": {
+            "width": 300,
+            "height": 200,
+            "verticalOffset": 50,
+            "horizontalOffset": 50
+          },
+          "printSize": {
+            "width": 320,
+            "height": 220,
+            "verticalOffset": 70,
+            "horizontalOffset": 70
+          }
+        },
+        "spineSectionSize": {
+          "pageSize": {
+            "width": 80,
+            "height": 210,
+            "verticalOffset": 10,
+            "horizontalOffset": 10
+          },
+          "layoutSize": {
+            "width": 75,
+            "height": 205,
+            "verticalOffset": 10,
+            "horizontalOffset": 10
+          },
+          "printSize": {
+            "width": 90,
+            "height": 220,
+            "verticalOffset": 10,
+            "horizontalOffset": 10
+          }
+        },
+        "backCoverSectionSize": {
+          "pageSize": {
+            "width": 305,
+            "height": 205,
+            "verticalOffset": 55,
+            "horizontalOffset": 55
+          },
+          "layoutSize": {
+            "width": 300,
+            "height": 200,
+            "verticalOffset": 50,
+            "horizontalOffset": 50
+          },
+          "printSize": {
+            "width": 320,
+            "height": 220,
+            "verticalOffset": 70,
+            "horizontalOffset": 70
+          }
+        },
+        "frontCoverSectionSize": {
+          "pageSize": {
+            "width": 305,
+            "height": 205,
+            "verticalOffset": 55,
+            "horizontalOffset": 55
+          },
+          "layoutSize": {
+            "width": 300,
+            "height": 200,
+            "verticalOffset": 50,
+            "horizontalOffset": 50
+          },
+          "printSize": {
+            "width": 320,
+            "height": 220,
+            "verticalOffset": 70,
+            "horizontalOffset": 70
+          }
+        }
+      },
+      "internalSizeSheet": {
+        "sheetSize": {
+          "pageSize": {
+            "width": 300,
+            "height": 200,
+            "verticalOffset": 50,
+            "horizontalOffset": 50
+          },
+          "printSize": {
+            "width": 305,
+            "height": 205,
+            "verticalOffset": 55,
+            "horizontalOffset": 55
+          },
+          "fullPrintSize": {
+            "width": 320,
+            "height": 220,
+            "verticalOffset": 70,
+            "horizontalOffset": 70
+          }
+        },
+        "mainBackgroundSheetSectionSize": {
+          "pageSize": {
+            "width": 305,
+            "height": 205,
+            "verticalOffset": 55,
+            "horizontalOffset": 55
+          },
+          "layoutSize": {
+            "width": 320,
+            "height": 220,
+            "verticalOffset": 70,
+            "horizontalOffset": 70
+          },
+          "printSize": {
+            "width": 320,
+            "height": 220,
+            "verticalOffset": 70,
+            "horizontalOffset": 70
+          }
+        },
+        "singlePageSectionSize": {
+          "pageSize": {
+            "width": 140,
+            "height": 90,
+            "verticalOffset": 30,
+            "horizontalOffset": 30
+          },
+          "layoutSize": {
+            "width": 150,
+            "height": 100,
+            "verticalOffset": 30,
+            "horizontalOffset": 30
+          },
+          "printSize": {
+            "width": 150,
+            "height": 100,
+            "verticalOffset": 10,
+            "horizontalOffset": 10
+          }
+        },
+        "doublePageSectionSize": {
+          "pageSize": {
+            "width": 310,
+            "height": 210,
+            "verticalOffset": 55,
+            "horizontalOffset": 55
+          },
+          "layoutSize": {
+            "width": 320,
+            "height": 220,
+            "verticalOffset": 70,
+            "horizontalOffset": 70
+          },
+          "printSize": {
+            "width": 320,
+            "height": 220,
+            "verticalOffset": 70,
+            "horizontalOffset": 70
+          }
+        }
+      },
+      "bookSizeMetadata": {
+        "image": "",
+        "suggest": true,
+        "sortIndex": 1,
+        "price": 0.0,
+        "additionalSheetPrice": 0.0,
+        "name": "30x20",
+        "description": "Book size 1 description",
+        "weight": 0.0,
+        "additionalSheetWeight": 0.0
+      },
+      "state": "ENABLED"
+    },
+    {
+      "id": "100",
+      "coverSizeSheet": {
+        "sheetSize": {
+          "pageSize": {
+            "width": 600,
+            "height": 400,
+            "verticalOffset": 100,
+            "horizontalOffset": 100
+          },
+          "printSize": {
+            "width": 610,
+            "height": 410,
+            "verticalOffset": 110,
+            "horizontalOffset": 110
+          },
+          "fullPrintSize": {
+            "width": 640,
+            "height": 440,
+            "verticalOffset": 140,
+            "horizontalOffset": 140
+          }
+        },
+        "mainBackgroundSheetSectionSize": {
+          "pageSize": {
+            "width": 610,
+            "height": 410,
+            "verticalOffset": 110,
+            "horizontalOffset": 110
+          },
+          "layoutSize": {
+            "width": 600,
+            "height": 400,
+            "verticalOffset": 100,
+            "horizontalOffset": 100
+          },
+          "printSize": {
+            "width": 640,
+            "height": 440,
+            "verticalOffset": 140,
+            "horizontalOffset": 140
+          }
+        },
+        "spineSectionSize": {
+          "pageSize": {
+            "width": 160,
+            "height": 420,
+            "verticalOffset": 20,
+            "horizontalOffset": 20
+          },
+          "layoutSize": {
+            "width": 150,
+            "height": 410,
+            "verticalOffset": 20,
+            "horizontalOffset": 20
+          },
+          "printSize": {
+            "width": 180,
+            "height": 440,
+            "verticalOffset": 20,
+            "horizontalOffset": 20
+          }
+        },
+        "backCoverSectionSize": {
+          "pageSize": {
+            "width": 610,
+            "height": 410,
+            "verticalOffset": 110,
+            "horizontalOffset": 110
+          },
+          "layoutSize": {
+            "width": 600,
+            "height": 400,
+            "verticalOffset": 100,
+            "horizontalOffset": 100
+          },
+          "printSize": {
+            "width": 640,
+            "height": 440,
+            "verticalOffset": 140,
+            "horizontalOffset": 140
+          }
+        },
+        "frontCoverSectionSize": {
+          "pageSize": {
+            "width": 610,
+            "height": 410,
+            "verticalOffset": 110,
+            "horizontalOffset": 110
+          },
+          "layoutSize": {
+            "width": 600,
+            "height": 400,
+            "verticalOffset": 100,
+            "horizontalOffset": 100
+          },
+          "printSize": {
+            "width": 640,
+            "height": 440,
+            "verticalOffset": 140,
+            "horizontalOffset": 140
+          }
+        }
+      },
+      "internalSizeSheet": {
+        "sheetSize": {
+          "pageSize": {
+            "width": 600,
+            "height": 400,
+            "verticalOffset": 100,
+            "horizontalOffset": 100
+          },
+          "printSize": {
+            "width": 610,
+            "height": 410,
+            "verticalOffset": 110,
+            "horizontalOffset": 110
+          },
+          "fullPrintSize": {
+            "width": 640,
+            "height": 440,
+            "verticalOffset": 140,
+            "horizontalOffset": 140
+          }
+        },
+        "mainBackgroundSheetSectionSize": {
+          "pageSize": {
+            "width": 610,
+            "height": 410,
+            "verticalOffset": 110,
+            "horizontalOffset": 110
+          },
+          "layoutSize": {
+            "width": 640,
+            "height": 440,
+            "verticalOffset": 140,
+            "horizontalOffset": 140
+          },
+          "printSize": {
+            "width": 640,
+            "height": 440,
+            "verticalOffset": 140,
+            "horizontalOffset": 140
+          }
+        },
+        "singlePageSectionSize": {
+          "pageSize": {
+            "width": 280,
+            "height": 180,
+            "verticalOffset": 60,
+            "horizontalOffset": 60
+          },
+          "layoutSize": {
+            "width": 300,
+            "height": 200,
+            "verticalOffset": 60,
+            "horizontalOffset": 60
+          },
+          "printSize": {
+            "width": 300,
+            "height": 200,
+            "verticalOffset": 20,
+            "horizontalOffset": 20
+          }
+        },
+        "doublePageSectionSize": {
+          "pageSize": {
+            "width": 620,
+            "height": 420,
+            "verticalOffset": 110,
+            "horizontalOffset": 110
+          },
+          "layoutSize": {
+            "width": 640,
+            "height": 440,
+            "verticalOffset": 140,
+            "horizontalOffset": 140
+          },
+          "printSize": {
+            "width": 640,
+            "height": 440,
+            "verticalOffset": 140,
+            "horizontalOffset": 140
+          }
+        }
+      },
+      "bookSizeMetadata": {
+        "image": "",
+        "suggest": false,
+        "sortIndex": 2,
+        "price": 0.0,
+        "additionalSheetPrice": 0.0,
+        "name": "60x40",
+        "description": "Book size 2 description",
+        "weight": 0.0,
+        "additionalSheetWeight": 0.0
+      },
+      "state": "ENABLED"
+    },
+    {
+      "id": "101",
+      "coverSizeSheet": {
+        "sheetSize": {
+          "pageSize": {
+            "width": 900,
+            "height": 600,
+            "verticalOffset": 150,
+            "horizontalOffset": 150
+          },
+          "printSize": {
+            "width": 915,
+            "height": 615,
+            "verticalOffset": 165,
+            "horizontalOffset": 165
+          },
+          "fullPrintSize": {
+            "width": 960,
+            "height": 660,
+            "verticalOffset": 210,
+            "horizontalOffset": 210
+          }
+        },
+        "mainBackgroundSheetSectionSize": {
+          "pageSize": {
+            "width": 915,
+            "height": 615,
+            "verticalOffset": 165,
+            "horizontalOffset": 165
+          },
+          "layoutSize": {
+            "width": 900,
+            "height": 600,
+            "verticalOffset": 150,
+            "horizontalOffset": 150
+          },
+          "printSize": {
+            "width": 960,
+            "height": 660,
+            "verticalOffset": 210,
+            "horizontalOffset": 210
+          }
+        },
+        "spineSectionSize": {
+          "pageSize": {
+            "width": 240,
+            "height": 630,
+            "verticalOffset": 30,
+            "horizontalOffset": 30
+          },
+          "layoutSize": {
+            "width": 225,
+            "height": 615,
+            "verticalOffset": 30,
+            "horizontalOffset": 30
+          },
+          "printSize": {
+            "width": 270,
+            "height": 660,
+            "verticalOffset": 30,
+            "horizontalOffset": 30
+          }
+        },
+        "backCoverSectionSize": {
+          "pageSize": {
+            "width": 915,
+            "height": 615,
+            "verticalOffset": 165,
+            "horizontalOffset": 165
+          },
+          "layoutSize": {
+            "width": 900,
+            "height": 600,
+            "verticalOffset": 150,
+            "horizontalOffset": 150
+          },
+          "printSize": {
+            "width": 960,
+            "height": 660,
+            "verticalOffset": 210,
+            "horizontalOffset": 210
+          }
+        },
+        "frontCoverSectionSize": {
+          "pageSize": {
+            "width": 915,
+            "height": 615,
+            "verticalOffset": 165,
+            "horizontalOffset": 165
+          },
+          "layoutSize": {
+            "width": 900,
+            "height": 600,
+            "verticalOffset": 150,
+            "horizontalOffset": 150
+          },
+          "printSize": {
+            "width": 960,
+            "height": 660,
+            "verticalOffset": 210,
+            "horizontalOffset": 210
+          }
+        }
+      },
+      "internalSizeSheet": {
+        "sheetSize": {
+          "pageSize": {
+            "width": 900,
+            "height": 600,
+            "verticalOffset": 150,
+            "horizontalOffset": 150
+          },
+          "printSize": {
+            "width": 915,
+            "height": 615,
+            "verticalOffset": 165,
+            "horizontalOffset": 165
+          },
+          "fullPrintSize": {
+            "width": 960,
+            "height": 660,
+            "verticalOffset": 210,
+            "horizontalOffset": 210
+          }
+        },
+        "mainBackgroundSheetSectionSize": {
+          "pageSize": {
+            "width": 915,
+            "height": 615,
+            "verticalOffset": 165,
+            "horizontalOffset": 165
+          },
+          "layoutSize": {
+            "width": 960,
+            "height": 660,
+            "verticalOffset": 210,
+            "horizontalOffset": 210
+          },
+          "printSize": {
+            "width": 960,
+            "height": 660,
+            "verticalOffset": 210,
+            "horizontalOffset": 210
+          }
+        },
+        "singlePageSectionSize": {
+          "pageSize": {
+            "width": 420,
+            "height": 270,
+            "verticalOffset": 90,
+            "horizontalOffset": 90
+          },
+          "layoutSize": {
+            "width": 450,
+            "height": 300,
+            "verticalOffset": 90,
+            "horizontalOffset": 90
+          },
+          "printSize": {
+            "width": 450,
+            "height": 300,
+            "verticalOffset": 30,
+            "horizontalOffset": 30
+          }
+        },
+        "doublePageSectionSize": {
+          "pageSize": {
+            "width": 930,
+            "height": 630,
+            "verticalOffset": 165,
+            "horizontalOffset": 165
+          },
+          "layoutSize": {
+            "width": 960,
+            "height": 660,
+            "verticalOffset": 210,
+            "horizontalOffset": 210
+          },
+          "printSize": {
+            "width": 960,
+            "height": 660,
+            "verticalOffset": 210,
+            "horizontalOffset": 210
+          }
+        }
+      },
+      "bookSizeMetadata": {
+        "image": "",
+        "suggest": false,
+        "sortIndex": 3,
+        "price": 0.0,
+        "additionalSheetPrice": 0.0,
+        "name": "90x60",
+        "description": "Book size 3 description",
+        "weight": 0.0,
+        "additionalSheetWeight": 0.0
+      },
+      "state": "ENABLED"
+    }
+  ],
+  "predefinedBooks": [
+    {
+      "bookSizeInfoId": "99",
+      "cover": {
+        "pageId": 1,
+        "pageNumber": 0,
+        "bookSizeInfoId": "99",
+        "areInternalSectionsSwappable": false,
+        "customStyleProperties": {
+          "backgrounds": [
+            {
+              "type": "SOLID_COLOR",
+              "color": {
+                "intColor": 16777215
+              }
+            },
+            {
+              "type": "SOLID_COLOR",
+              "color": {
+                "intColor": 35223454
+              }
+            },
+            {
+              "type": "SOLID_COLOR",
+              "color": {
+                "intColor": 83484534
+              }
+            },
+            {
+              "type": "IMAGE",
+              "uri": "./assets/predefined_books/size_1/background_images/background_image_1.jpg"
+            },
+            {
+              "type": "IMAGE",
+              "uri": "./assets/predefined_books/size_1/background_images/background_image_2.jpg"
+            },
+            {
+              "type": "IMAGE",
+              "uri": "./assets/predefined_books/size_1/background_images/background_image_3.jpg"
+            }
+          ],
+          "fonts": [
+            {
+              "fontName": "./assets/fonts/GreatVibes-Regular.otf"
+            },
+            {
+              "fontName": "./assets/fonts/Pacifico.ttf"
+            },
+            {
+              "fontName": "./assets/fonts/QuentinCaps.ttf"
+            }
+          ],
+          "stickers": [
+            {
+              "stickerId": 1,
+              "imageUri": "./assets/stickers/sticker_1.png"
+            },
+            {
+              "stickerId": 2,
+              "imageUri": "./assets/stickers/sticker_2.png"
+            },
+            {
+              "stickerId": 3,
+              "imageUri": "./assets/stickers/sticker_3.png"
+            }
+          ],
+          "texts": [
+            {
+              "fontStyle": "NORMAL",
+              "fontColor": {
+                "intColor": 83484534
+              },
+              "align": "CENTER",
+              "fontSize": {
+                "pixels": 15
+              },
+              "font": {
+                "fontName": "./assets/fonts/Pacifico.ttf"
+              },
+              "background": {
+                "type": "SOLID_COLOR",
+                "color": {
+                  "intColor": 16725215
+                }
+              }
+            },
+            {
+              "fontStyle": "BOLD",
+              "fontColor": {
+                "intColor": 83423534
+              },
+              "align": "LEFT",
+              "fontSize": {
+                "pixels": 18
+              },
+              "font": {
+                "fontName": "./assets/fonts/GreatVibes-Regular.otf"
+              },
+              "background": {
+                "type": "SOLID_COLOR",
+                "color": {
+                  "intColor": 16725215
+                }
+              }
+            }
+          ],
+          "fontColors": [
+            {
+              "intColor": 16745215
+            },
+            {
+              "intColor": 16755215
+            },
+            {
+              "intColor": 16726215
+            }
+          ]
+        },
+        "mainBackgroundSheetSection": {
+          "id": 1,
+          "type": "BACKGROUND_COVER_SHEET",
+          "bookSizeInfoId": "99",
+          "elements": [],
+          "background": {
+            "background": {
+              "type": "IMAGE",
+              "uri": "./assets/predefined_books/size_1/background_images/background_image_1.jpg"
+            },
+            "changeable": true
+          },
+          "styleProperties": null
+        },
+        "backCoverSheet": {
+          "id": 1,
+          "type": "BACK_COVER",
+          "bookSizeInfoId": "99",
+          "elements": [
+            {
+              "type": "PHOTO_BLOCK",
+              "elementId": 2,
+              "position": {
+                "top": 50.0,
+                "left": 50.0
+              },
+              "rotation": {
+                "rotationDegree": 0
+              },
+              "size": {
+                "width": 50,
+                "height": 50
+              },
+              "zIndex": 3,
+              "zIndexEditable": false,
+              "movementEditable": false,
+              "cropMaskShape": {},
+              "borderShape": {},
+              "photo": {
+                "photo": {
+                  "id": "1",
+                  "path": "./assets/predefined_books/default_photos/default_photo_2.jpg",
+                  "width": 1300,
+                  "height": 1000,
+                  "orientation": 1
+                },
+                "size": {
+                  "width": 100,
+                  "height": 100
+                },
+                "position": {
+                  "top": 50.0,
+                  "left": 50.0
+                },
+                "rotation": {
+                  "rotationDegree": 0
+                },
+                "filterName": null,
+                "isFlipHorizontally": false
+              }
+            }
+          ],
+          "background": null,
+          "styleProperties": null
+        },
+        "spineCoverSheet": {
+          "id": 1,
+          "type": "SPINE_COVER",
+          "bookSizeInfoId": "99",
+          "elements": [
+            {
+              "type": "STICKER",
+              "elementId": 1,
+              "position": {
+                "top": 10.0,
+                "left": 50.0
+              },
+              "rotation": {
+                "rotationDegree": 0
+              },
+              "size": {
+                "width": 80,
+                "height": 10
+              },
+              "zIndex": 3,
+              "zIndexEditable": false,
+              "movementEditable": false,
+              "sticker": {
+                "stickerId": 1,
+                "imageUri": "./assets/stickers/sticker_3.png"
+              }
+            },
+            {
+              "type": "TEXT",
+              "elementId": 2,
+              "position": {
+                "top": 90.0,
+                "left": 50.0
+              },
+              "rotation": {
+                "rotationDegree": 90
+              },
+              "size": {
+                "width": 200,
+                "height": 10
+              },
+              "zIndex": 3,
+              "zIndexEditable": false,
+              "movementEditable": true,
+              "textStyle": {
+                "fontStyle": "NORMAL",
+                "fontColor": {
+                  "intColor": 83484534
+                },
+                "align": "CENTER",
+                "fontSize": {
+                  "pixels": 24
+                },
+                "font": {
+                  "fontName": "./assets/fonts/QuentinCaps.ttf"
+                },
+                "background": {
+                  "type": "SOLID_COLOR",
+                  "color": {
+                    "intColor": 0
+                  }
+                }
+              },
+              "themeText": {
+                "text": "TITLE HERE IN SPINE"
+              }
+            }
+          ],
+          "background": null,
+          "styleProperties": null
+        },
+        "frontCoverSheet": {
+          "id": 1,
+          "type": "FRONT_COVER",
+          "bookSizeInfoId": "99",
+          "elements": [
+            {
+              "type": "STICKER",
+              "elementId": 1,
+              "position": {
+                "top": 20.0,
+                "left": 20.0
+              },
+              "rotation": {
+                "rotationDegree": 0
+              },
+              "size": {
+                "width": 5,
+                "height": 5
+              },
+              "zIndex": 3,
+              "zIndexEditable": false,
+              "movementEditable": true,
+              "sticker": {
+                "stickerId": 1,
+                "imageUri": "./assets/stickers/sticker_1.png"
+              }
+            },
+            {
+              "type": "PHOTO_BLOCK",
+              "elementId": 2,
+              "position": {
+                "top": 50.0,
+                "left": 50.0
+              },
+              "rotation": {
+                "rotationDegree": 45
+              },
+              "size": {
+                "width": 30,
+                "height": 30
+              },
+              "zIndex": 3,
+              "zIndexEditable": false,
+              "movementEditable": false,
+              "cropMaskShape": {},
+              "borderShape": {},
+              "photo": {
+                "photo": {
+                  "id": "1",
+                  "path": "./assets/predefined_books/default_photos/default_photo_1.jpg",
+                  "width": 1300,
+                  "height": 1000,
+                  "orientation": 1
+                },
+                "size": {
+                  "width": 20,
+                  "height": 30
+                },
+                "position": {
+                  "top": 50.0,
+                  "left": 50.0
+                },
+                "rotation": {
+                  "rotationDegree": 0
+                },
+                "filterName": null,
+                "isFlipHorizontally": false
+              }
+            },
+            {
+              "type": "TEXT",
+              "elementId": 3,
+              "position": {
+                "top": 90.0,
+                "left": 50.0
+              },
+              "rotation": {
+                "rotationDegree": 0
+              },
+              "size": {
+                "width": 10,
+                "height": 5
+              },
+              "zIndex": 3,
+              "zIndexEditable": false,
+              "movementEditable": true,
+              "textStyle": {
+                "fontStyle": "NORMAL",
+                "fontColor": {
+                  "intColor": 83484534
+                },
+                "align": "CENTER",
+                "fontSize": {
+                  "pixels": 18
+                },
+                "font": {
+                  "fontName": "./assets/fonts/GreatVibes-Regular.otf"
+                },
+                "background": {
+                  "type": "SOLID_COLOR",
+                  "color": {
+                    "intColor": 16725215
+                  }
+                }
+              },
+              "themeText": {
+                "text": "TITLE HERE"
+              }
+            }
+          ],
+          "background": null,
+          "styleProperties": null
+        }
+      },
+      "pages": [
+        {
+          "type": "DOUBLE_SECTION_INTERNAL_SHEET",
+          "pageId": 2,
+          "pageNumber": 1,
+          "bookSizeInfoId": "99",
+          "areInternalSectionsSwappable": false,
+          "customStyleProperties": null,
+          "mainBackgroundSheetSection": {
+            "id": 1,
+            "type": "BACKGROUND_INTERNAL_SHEET",
+            "bookSizeInfoId": "99",
+            "elements": [],
+            "background": {
+              "background": {
+                "type": "SOLID_COLOR",
+                "color": {
+                  "intColor": 83484534
+                }
+              },
+              "changeable": true
+            },
+            "styleProperties": null
+          },
+          "doublePageSection": {
+            "id": 1,
+            "type": "DOUBLE_PAGE_INTERNAL_SHEET",
+            "bookSizeInfoId": "99",
+            "elements": [
+              {
+                "type": "STICKER",
+                "elementId": 1,
+                "position": {
+                  "top": 20.0,
+                  "left": 20.0
+                },
+                "rotation": {
+                  "rotationDegree": 0
+                },
+                "size": {
+                  "width": 5,
+                  "height": 5
+                },
+                "zIndex": 3,
+                "zIndexEditable": false,
+                "movementEditable": true,
+                "sticker": {
+                  "stickerId": 1,
+                  "imageUri": "./assets/stickers/sticker_1.png"
+                }
+              },
+              {
+                "type": "STICKER",
+                "elementId": 1,
+                "position": {
+                  "top": 20.0,
+                  "left": 80.0
+                },
+                "rotation": {
+                  "rotationDegree": 0
+                },
+                "size": {
+                  "width": 8,
+                  "height": 8
+                },
+                "zIndex": 3,
+                "zIndexEditable": false,
+                "movementEditable": true,
+                "sticker": {
+                  "stickerId": 1,
+                  "imageUri": "./assets/stickers/sticker_3.png"
+                }
+              },
+              {
+                "type": "PHOTO_BLOCK",
+                "elementId": 2,
+                "position": {
+                  "top": 50.0,
+                  "left": 33.3
+                },
+                "rotation": {
+                  "rotationDegree": 0
+                },
+                "size": {
+                  "width": 30,
+                  "height": 30
+                },
+                "zIndex": 3,
+                "zIndexEditable": false,
+                "movementEditable": false,
+                "cropMaskShape": {},
+                "borderShape": {},
+                "photo": {
+                  "photo": {
+                    "id": "1",
+                    "path": "./assets/predefined_books/default_photos/default_photo_1.jpg",
+                    "width": 1300,
+                    "height": 1000,
+                    "orientation": 1
+                  },
+                  "size": {
+                    "width": 100,
+                    "height": 100
+                  },
+                  "position": {
+                    "top": 50.0,
+                    "left": 50.0
+                  },
+                  "rotation": {
+                    "rotationDegree": 0
+                  },
+                  "filterName": null,
+                  "isFlipHorizontally": false
+                }
+              },
+              {
+                "type": "TEXT",
+                "elementId": 3,
+                "position": {
+                  "top": 50.0,
+                  "left": 66.6
+                },
+                "rotation": {
+                  "rotationDegree": 0
+                },
+                "size": {
+                  "width": 40,
+                  "height": 10
+                },
+                "zIndex": 3,
+                "zIndexEditable": false,
+                "movementEditable": true,
+                "textStyle": {
+                  "fontStyle": "NORMAL",
+                  "fontColor": {
+                    "intColor": 83484534
+                  },
+                  "align": "CENTER",
+                  "fontSize": {
+                    "pixels": 30
+                  },
+                  "font": {
+                    "fontName": "./assets/fonts/GreatVibes-Regular.otf"
+                  },
+                  "background": {
+                    "type": "SOLID_COLOR",
+                    "color": {
+                      "intColor": 16725215
+                    }
+                  }
+                },
+                "themeText": {
+                  "text": "EXAMPLE TEXT"
+                }
+              }
+            ],
+            "background": null,
+            "styleProperties": null
+          }
+        }
+      ]
+    }
+  ],
+  "sectionTemplates": {},
+  "internalSheetTemplates": {},
+  "coverSheetTemplates": {},
+  "customStyleProperties": {
+    "backgrounds": [],
+    "fonts": [],
+    "stickers": [],
+    "texts": [],
+    "fontColors": []
+  }
 }
-	
-	
-	
-	
-	
-	
- 
